@@ -8,6 +8,7 @@ layout: home
 # The 11th Workshop on Formal Reasoning in Distributed Algorithms
 
 Date: Tuesday July 23rd, 2024
+
 Location: Montreal, Canada
 
 The workshop is organized as part of [CAV 2024](https://i-cav.org/2024/).
