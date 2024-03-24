@@ -17,7 +17,7 @@ The workshop is organized as part of [CAV 2024](https://i-cav.org/2024/).
 
 If you would like to participate as a speaker, send an abstract by May 25th, 2024 to [Swen Jacobs](https://cispa.de/en/people/swen.jacobs) and [Giuliano Losa](https://www.losa.fr/).
 We welcome talks on recent published or unpublished research as well as new and exploratory ideas.
-See the below for the topics of interest.
+See below for the topics of interest.
 
 ## Description
 
