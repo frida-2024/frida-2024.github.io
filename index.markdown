@@ -13,11 +13,16 @@ Location: Montreal, Canada
 
 The workshop is organized as part of [CAV 2024](https://i-cav.org/2024/).
 
-# Speakers
+## Speakers
 
 If you would like to participate as a speaker, send an abstract by May 25th, 2024 to [Swen Jacobs](https://cispa.de/en/people/swen.jacobs) and [Giuliano Losa](https://www.losa.fr/).
 We welcome talks on recent published or unpublished research as well as new and exploratory ideas.
 See below for the topics of interest.
+
+### Confirmed Speakers
+
+* [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
+* [Thomas Wies](https://cs.nyu.edu/~wies/), NYU
 
 ## Description
 
