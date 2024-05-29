@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
@@ -15,7 +12,7 @@ The workshop is organized as part of [CAV 2024](https://i-cav.org/2024/).
 
 ## Speakers
 
-If you would like to participate as a speaker, send an abstract by May 25th, 2024 to [Swen Jacobs](https://cispa.de/en/people/swen.jacobs) and [Giuliano Losa](https://www.losa.fr/).
+If you would like to participate as a speaker, please send an abstract as soon as possible to [Swen Jacobs](https://cispa.de/en/people/swen.jacobs) and [Giuliano Losa](https://www.losa.fr/).
 We welcome talks on recent published or unpublished research as well as new and exploratory ideas.
 See below for the topics of interest.
 
@@ -23,6 +20,11 @@ See below for the topics of interest.
 
 * [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
 * [Thomas Wies](https://cs.nyu.edu/~wies/), NYU
+* [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
+* [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
+* [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
+* [Isaac Sheff](https://isaacsheff.com/), Heliax
+<!-- * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder -->
 
 ## Description
 
