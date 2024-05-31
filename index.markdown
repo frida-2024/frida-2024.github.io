@@ -24,7 +24,7 @@ See below for the topics of interest.
 * [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
 * [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
 * [Isaac Sheff](https://isaacsheff.com/), Heliax
-<!-- * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder -->
+* [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
 
 ## Description
 
