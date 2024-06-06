@@ -70,14 +70,11 @@ The topics of interest for the FRIDA workshop include the following, as they app
 
 ## Organizers
 
-* [Swen Jacobs](https://cispa.de/en/people/swen.jacobs)
-* [Giuliano Losa](https://www.losa.fr/)
+[Swen Jacobs](https://cispa.de/en/people/swen.jacobs) and [Giuliano Losa](https://www.losa.fr/)
 
 ### With support of
-* [Stephan Merz](https://members.loria.fr/Stephan.Merz/)
-* [Marijana Lazić](https://www.cs.cit.tum.de/tcs/personen/marijana-lazic/#c26286)
-* Igor Konnov
-* Joseph Widder
+
+[Stephan Merz](https://members.loria.fr/Stephan.Merz/), [Marijana Lazić](https://www.cs.cit.tum.de/tcs/personen/marijana-lazic/#c26286), Igor Konnov, and Joseph Widder
 
 ## Previous editions
 
@@ -101,4 +98,4 @@ DISC 2019 in Budapest, Hungary.
 Finally, [FRIDA 2020](https://frida2020.galois.com/) and [FRIDA 2021](https://frida-2021.github.io) took place as online workshops at QONFEST
 2020 and DISC 2021, respectively.
 [FRIDA 2022](https://frida-2022.github.io) was organized with FLoC 2022 and took place in Haifa.
-[FRIDA 2023](https://frida-2023.github.io) took place in L'Aquila, Italy, along with DISC 2024.
+[FRIDA 2023](https://frida-2023.github.io) took place in L'Aquila, Italy, along with DISC 2023.
