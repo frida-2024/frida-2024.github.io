@@ -19,14 +19,41 @@ See below for the topics of interest.
 ### Confirmed Speakers
 
 * [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
+    <details>
+    <summary>Fault-tolerant Distributed Runtime Monitoring (click the arrow to expand the abstract)</summary>
+      <br>
+      <p>
+      Monitoring distributed applications that do not share a global clock is highly challenging as the monitor has to potentially deal with a combinatorial enumeration at run time. We also have every reason to believe that distributed monitors are not necessarily perfect and monitors are subject to all types of faults that normal distributed processes are. In this talk, I will present our results on runtime verification of distributed systems. We make a practical assumption that the distributed system under scrutiny is augmented with a clock synchronization algorithm that guarantees bounded clock skew among all processes. Second, we do not make any assumption about the structure of the formal specification under inspection. We introduce a set of distributed monitoring algorithms by employing SMT-solving that range over discrete distributed systems such as databases to cyber-physical systems such as network of autonomous vehicles. I will also present real-world case studies and demonstrate that scalable online monitoring of distributed applications is within our reach.
+      </p>
+    </details>
 * [Thomas Wies](https://cs.nyu.edu/~wies/), NYU
 * [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
+    <details>
+    <summary>verifiedSCION: Verified Secure Routing (click the arrow to expand the abstract)</summary>
+    <br>
+    <p>
+    SCION is a new Internet architecture that addresses many of the security vulnerabilities of today’s Internet. Its clean-slate design provides, among other properties, route control, failure isolation, and multi-path communication. The verifiedSCION project is an effort to formally verify the correctness and security of SCION. It aims to provide strong guarantees for the entire architecture, from the protocol design to its concrete implementation.
+    The key step to achieving these guarantees is to formally connect a model of the entire SCION network, about which we can prove global properties, to correctness proofs of individual router implementations.
+    This talk will give an overview of the verifiedSCION project and explain, in particular, how we extract specifications for individual components from a global model of a distributed system using refinement and decomposition, and how we then verify each component against its specification using deductive program verification in separation logic.
+    </p>
+    </details>
 * [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
 * [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
 * [Isaac Sheff](https://isaacsheff.com/), Heliax
 * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
+    <details>
+    <summary>Bolt-On Strong Consistency: Specification, Implementation, and Verification (click the arrow to expand the abstract)</summary>
+    <br>
+    <p>
+    Strongly-consistent replicated data stores are a popular foundation for many kinds of online services, but their implementations are very complex. Strong replication is not ‘available’ under network partitions, and so achieving a functional degree of fault-tolerance requires correctly implementing ‘consensus algorithms’ like Raft and Paxos. These algorithms are notoriously difficult to reason about, and many data stores implement custom variations to support unique performance tradeoffs, presenting an opportunity for automated verification tools. Unfortunately, existing tools that have been applied to distributed consensus demand too much developer effort, a problem stemming from the low-level programming model in which consensus and strong replication are implemented—asynchronous message passing—which thwarts decidable automation by exposing the details of communication and the structure of the distributed network.
+    </p>
 
-## Description
+    <p>
+In this talk, I will explore an alternative approach: the implementation and verification of strong replication systems *as applications of* weak replicated data stores. Weak stores, being available under partition, are a suitable foundation for performant distributed applications. At the same time, they abstract asynchronous communication and allow us to derive local-scope conditions for the verification of consensus safety. To evaluate this approach, we have developed a verified-programming framework for the weak replicated state model, called ‘Super-V’. This framework enables SMT-based verification based on local-scope artifacts called ‘strong update preconditions’, improving on standard-practice global inductive invariants in both decidability by the solver and ease of discovery by the developer. I will demonstrate how this framework can be used to implement and verify a strong replication system based on an adaptation of the Raft consensus algorithm, and discuss the performance implications of this approach.
+    </p>
+    </details>
+
+## Description of the workshop
 
 Distributed algorithms is an active research field; their applications range
 from Internet applications over cloud computing to safety-critical control
