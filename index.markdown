@@ -38,6 +38,10 @@ See below for the topics of interest.
     </p>
     </details>
 * [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
+    <details>
+    <summary>Commutativity Verification/Inference for Automatic Parallelization</summary>
+    </details>
+
 * [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
 * [Isaac Sheff](https://isaacsheff.com/), Heliax
 * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
