@@ -43,6 +43,16 @@ See below for the topics of interest.
     </details>
 
 * [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
+    <details>
+    <summary>Machine-Verifying Complex and Deployed Multiprocess Data Structures</summary>
+    <br>
+    <p>
+    I will talk about machine-verifying the correctness of concurrent data structures via the universal and complete Meta-Configurations Tracking verification method for proving linearizability. We have used this method to prove algorithms with famously complex and future-dependent linearization structures and those which have been impactfully deployed in practice. We demonstrate the simplicity and power of our method by producing proofs of linearizability for the Herlihy-Wing queue and Jayanti’s single-scanner snapshot, as well as a proof of strong linearizability of the Jayanti-Tarjan union-find object, which is deployed in Google's open-source graph mining library to enable the clustering billion-scale data. All three of these proofs are machine-verified by TLAPS (the TLA+ Proof System).
+    </p>
+    <p>
+    Bio: Siddhartha Jayanti is a Research Scientist at Google Research, Cambridge, MA. He is an algorithmist, whose work spans distributed systems, machine learning, economics and computing, security, and verification. Siddhartha earned his Ph.D. in Computer Science with a minor in Machine Learning from MIT, where he was advised by Julian Shun. He received his Master's from MIT under the guidance of Costis Daskalakis, and his Bachelor's from Princeton, where his thesis was advised by Robert Tarjan and his research on mathematics in Sanskrit was advised by Manjul Bhargava.
+    </p>
+    </details>
 * [Isaac Sheff](https://isaacsheff.com/), Heliax
 * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
     <details>
