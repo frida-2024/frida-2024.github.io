@@ -18,18 +18,27 @@ See below for the topics of interest.
 
 ### Confirmed Speakers
 
+(Click the arrows to display the abstracts)
+
 * [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
     <details>
-    <summary>Fault-tolerant Distributed Runtime Monitoring (click the arrow to expand the abstract)</summary>
+    <summary>Fault-tolerant Distributed Runtime Monitoring</summary>
       <br>
       <p>
       Monitoring distributed applications that do not share a global clock is highly challenging as the monitor has to potentially deal with a combinatorial enumeration at run time. We also have every reason to believe that distributed monitors are not necessarily perfect and monitors are subject to all types of faults that normal distributed processes are. In this talk, I will present our results on runtime verification of distributed systems. We make a practical assumption that the distributed system under scrutiny is augmented with a clock synchronization algorithm that guarantees bounded clock skew among all processes. Second, we do not make any assumption about the structure of the formal specification under inspection. We introduce a set of distributed monitoring algorithms by employing SMT-solving that range over discrete distributed systems such as databases to cyber-physical systems such as network of autonomous vehicles. I will also present real-world case studies and demonstrate that scalable online monitoring of distributed applications is within our reach.
       </p>
     </details>
-* [Thomas Wies](https://cs.nyu.edu/~wies/), NYU
+* [Nisarg Patel](https://cs.nyu.edu/~nrp364/), NYU
+    <details>
+    <summary>Verification of Lock-free Search Structure Templates</summary>
+    <br>
+    <p>
+    Concurrent search structures are a class of concurrent data structures that implement a key-value store. Concurrent search structures are integral components of modern software systems, yet they are notoriously difficult to design and implement. In the context of concurrency, linearizability is the accepted notion of correctness of a data structure. Verifying linearizability of concurrent search structures remains a formidable challenge due to the inherent complexity of the underlying algorithms. So far, verification of these data structures has often led to large, intricate proofs that are hard to comprehend and reuse. In this talk, we focus on lock-free concurrent search structures based on lists and skiplists. For this class of data structures, we present verification techniques that aid modularity and enable proof reuse. The resulting linearizability proofs are fully mechanized in the concurrent separation logic Iris. The proofs are modular and cover the broader design space of the underlying algorithms by parameterizing the verification over aspects such as the low-level representation of nodes and the style of data structure maintenance. As a further technical contribution, we present a mechanization of a recently proposed method for reasoning about future-dependent linearization points using hindsight arguments. The mechanization builds on Iris’ support for prophecy reasoning and user-defined ghost resources. We demonstrate that the method can help to reduce the proof effort compared to direct prophecy-based proofs.
+    </p>
+    </details>
 * [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
     <details>
-    <summary>verifiedSCION: Verified Secure Routing (click the arrow to expand the abstract)</summary>
+    <summary>verifiedSCION: Verified Secure Routing</summary>
     <br>
     <p>
     SCION is a new Internet architecture that addresses many of the security vulnerabilities of today’s Internet. Its clean-slate design provides, among other properties, route control, failure isolation, and multi-path communication. The verifiedSCION project is an effort to formally verify the correctness and security of SCION. It aims to provide strong guarantees for the entire architecture, from the protocol design to its concrete implementation.
@@ -56,7 +65,7 @@ See below for the topics of interest.
 * [Isaac Sheff](https://isaacsheff.com/), Heliax
 * [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
     <details>
-    <summary>Bolt-On Strong Consistency: Specification, Implementation, and Verification (click the arrow to expand the abstract)</summary>
+    <summary>Bolt-On Strong Consistency: Specification, Implementation, and Verification</summary>
     <br>
     <p>
     Strongly-consistent replicated data stores are a popular foundation for many kinds of online services, but their implementations are very complex. Strong replication is not ‘available’ under network partitions, and so achieving a functional degree of fault-tolerance requires correctly implementing ‘consensus algorithms’ like Raft and Paxos. These algorithms are notoriously difficult to reason about, and many data stores implement custom variations to support unique performance tradeoffs, presenting an opportunity for automated verification tools. Unfortunately, existing tools that have been applied to distributed consensus demand too much developer effort, a problem stemming from the low-level programming model in which consensus and strong replication are implemented—asynchronous message passing—which thwarts decidable automation by exposing the details of communication and the structure of the distributed network.
@@ -68,7 +77,7 @@ In this talk, I will explore an alternative approach: the implementation and ver
     </details>
 * [Stephen Siegel](https://vsl.cis.udel.edu/siegel.html), University of Delaware
     <details>
-    <summary>Challenge Problems in Verification of MPI Programs (click the arrow to expand the abstract)</summary>
+    <summary>Challenge Problems in Verification of MPI Programs</summary>
     <br>
     <p>
     MPI (Message Passing Interface) is the standard interface for writing distributed-memory parallel programs for scientific and high performance computing.   While MPI is a large library, the core functions, which suffice for expressing most algorithms, provide a simple interface with well-behaved properties, e.g., messages are never dropped and message order is preserved.  One of the main challenges in scientific computing is the mechanistic verification of programs written in C, C++, or Fortran and using MPI.   There has been some success in verifying such programs within small bounds on the number of processes, using model checking and symbolic execution techniques.  There has also been work on parameterized verification of these programs.  In this talk I will summarize MPI and show some examples of what has been accomplished so far, as well as examples for which current verification technology is insufficient.  Can ideas from distributed system verification help us solve these problems?
@@ -78,10 +87,10 @@ In this talk, I will explore an alternative approach: the implementation and ver
     <details>
     <summary>Testing and Verifying Concurrency Algorithms using Stateless Model Checking</summary>
     </details>
-* [Giuliano Losa](https://www.losa.fr), Stellar Development Foundation
+<!-- * [Giuliano Losa](https://www.losa.fr), Stellar Development Foundation
     <details>
     <summary>From Federated Byzantine Agreement to 3-valued logic</summary>
-    </details>
+    </details> -->
 
 ## Topics of Interest
 
