@@ -65,6 +65,14 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
     </details>
 
 * 14:50 to 15:30 --- [Isaac Sheff](https://isaacsheff.com/), Heliax
+    <details>
+    <summary>Formal Methods at Heliax: an industry experience report</summary>
+    <br>
+    <p>
+    History is littered with examples where distributed applications suffer because the underlying infrastructure is running flawed protocols or implementations. Heliax is a public goods lab building software for running distributed systems infrastructure to increase flexibility and security of applications. This talk reviews our experiences at Heliax, in particular how we integrate formal methods into our infrastructure software design process. The talk focuses on implementation plans for Heterogeneous Paxos, a consensus algorithm with complex trust assumptions, wherein different parties make different assumptions about who can fail and how. It also explains  our motivations for using formal methods, reports on our experiences with tools (including TLA⁺, TLAPS and Isabelle/HOL), and includes a “wish-list” of features that, in our experience, would maximize the impact of a formal verification tool.
+    </p>
+    </details>
+
 * 15:30 to 16:00 --- Coffee break
 
 * 16:00 to 16:40 --- [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
