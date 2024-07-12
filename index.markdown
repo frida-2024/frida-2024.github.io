@@ -1,6 +1,8 @@
 ---
+
 layout: home
 ---
+
 
 # The 11th Workshop on Formal Reasoning in Distributed Algorithms
 
@@ -14,16 +16,10 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 
 (Click the arrows to display the abstracts)
 
-* 09:05 --- Opening
-* 09:10 to 09:50 --- [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
-    <details>
-    <summary>Fault-tolerant Distributed Runtime Monitoring</summary>
-      <br>
-      <p>
-      Monitoring distributed applications that do not share a global clock is highly challenging as the monitor has to potentially deal with a combinatorial enumeration at run time. We also have every reason to believe that distributed monitors are not necessarily perfect and monitors are subject to all types of faults that normal distributed processes are. In this talk, I will present our results on runtime verification of distributed systems. We make a practical assumption that the distributed system under scrutiny is augmented with a clock synchronization algorithm that guarantees bounded clock skew among all processes. Second, we do not make any assumption about the structure of the formal specification under inspection. We introduce a set of distributed monitoring algorithms by employing SMT-solving that range over discrete distributed systems such as databases to cyber-physical systems such as network of autonomous vehicles. I will also present real-world case studies and demonstrate that scalable online monitoring of distributed applications is within our reach.
-      </p>
-    </details>
-* 09:50 to 10:30 [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
+* 09:05 ---
+ Opening
+* 09:10 to 09:50 ---
+ [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
     <details>
     <summary>Machine-Verifying Complex and Deployed Multiprocess Data Structures</summary>
     <br>
@@ -34,10 +30,21 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
     Bio: Siddhartha Jayanti is a Research Scientist at Google Research, Cambridge, MA. He is an algorithmist, whose work spans distributed systems, machine learning, economics and computing, security, and verification. Siddhartha earned his Ph.D. in Computer Science with a minor in Machine Learning from MIT, where he was advised by Julian Shun. He received his Master's from MIT under the guidance of Costis Daskalakis, and his Bachelor's from Princeton, where his thesis was advised by Robert Tarjan and his research on mathematics in Sanskrit was advised by Manjul Bhargava.
     </p>
     </details>
+* 09:50 to 10:30 ---
+ [Nisarg Patel](https://cs.nyu.edu/~nrp364/), NYU
+    <details>
+    <summary>Verification of Lock-free Search Structure Templates</summary>
+    <br>
+    <p>
+    Concurrent search structures are a class of concurrent data structures that implement a key-value store. Concurrent search structures are integral components of modern software systems, yet they are notoriously difficult to design and implement. In the context of concurrency, linearizability is the accepted notion of correctness of a data structure. Verifying linearizability of concurrent search structures remains a formidable challenge due to the inherent complexity of the underlying algorithms. So far, verification of these data structures has often led to large, intricate proofs that are hard to comprehend and reuse. In this talk, we focus on lock-free concurrent search structures based on lists and skiplists. For this class of data structures, we present verification techniques that aid modularity and enable proof reuse. The resulting linearizability proofs are fully mechanized in the concurrent separation logic Iris. The proofs are modular and cover the broader design space of the underlying algorithms by parameterizing the verification over aspects such as the low-level representation of nodes and the style of data structure maintenance. As a further technical contribution, we present a mechanization of a recently proposed method for reasoning about future-dependent linearization points using hindsight arguments. The mechanization builds on Iris’ support for prophecy reasoning and user-defined ghost resources. We demonstrate that the method can help to reduce the proof effort compared to direct prophecy-based proofs.
+    </p>
+    </details>
 
-* 10:30 to 11:00 --- coffee break
+* 10:30 to 11:00 ---
+ coffee break
 
-* 11:00 to 11:40 --- [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
+* 11:00 to 11:40 ---
+ [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
     <details>
     <summary>verifiedSCION: Verified Secure Routing</summary>
     <br>
@@ -47,24 +54,27 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
     This talk will give an overview of the verifiedSCION project and explain, in particular, how we extract specifications for individual components from a global model of a distributed system using refinement and decomposition, and how we then verify each component against its specification using deductive program verification in separation logic.
     </p>
     </details>
-
-* 11:40 to 12:20 --- [Nisarg Patel](https://cs.nyu.edu/~nrp364/), NYU
+* 11:40 to 12:20 ---
+ [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
     <details>
-    <summary>Verification of Lock-free Search Structure Templates</summary>
-    <br>
-    <p>
-    Concurrent search structures are a class of concurrent data structures that implement a key-value store. Concurrent search structures are integral components of modern software systems, yet they are notoriously difficult to design and implement. In the context of concurrency, linearizability is the accepted notion of correctness of a data structure. Verifying linearizability of concurrent search structures remains a formidable challenge due to the inherent complexity of the underlying algorithms. So far, verification of these data structures has often led to large, intricate proofs that are hard to comprehend and reuse. In this talk, we focus on lock-free concurrent search structures based on lists and skiplists. For this class of data structures, we present verification techniques that aid modularity and enable proof reuse. The resulting linearizability proofs are fully mechanized in the concurrent separation logic Iris. The proofs are modular and cover the broader design space of the underlying algorithms by parameterizing the verification over aspects such as the low-level representation of nodes and the style of data structure maintenance. As a further technical contribution, we present a mechanization of a recently proposed method for reasoning about future-dependent linearization points using hindsight arguments. The mechanization builds on Iris’ support for prophecy reasoning and user-defined ghost resources. We demonstrate that the method can help to reduce the proof effort compared to direct prophecy-based proofs.
-    </p>
+    <summary>Fault-tolerant Distributed Runtime Monitoring</summary>
+      <br>
+      <p>
+      Monitoring distributed applications that do not share a global clock is highly challenging as the monitor has to potentially deal with a combinatorial enumeration at run time. We also have every reason to believe that distributed monitors are not necessarily perfect and monitors are subject to all types of faults that normal distributed processes are. In this talk, I will present our results on runtime verification of distributed systems. We make a practical assumption that the distributed system under scrutiny is augmented with a clock synchronization algorithm that guarantees bounded clock skew among all processes. Second, we do not make any assumption about the structure of the formal specification under inspection. We introduce a set of distributed monitoring algorithms by employing SMT-solving that range over discrete distributed systems such as databases to cyber-physical systems such as network of autonomous vehicles. I will also present real-world case studies and demonstrate that scalable online monitoring of distributed applications is within our reach.
+      </p>
     </details>
 
-* 12:20 to 14:10 --- Lunch break
+* 12:20 to 14:10 ---
+ Lunch break
 
-* 14:10 to 14:50 --- [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
+* 14:10 to 14:50 ---
+ [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
     <details>
     <summary>Commutativity Verification/Inference for Automatic Parallelization</summary>
     </details>
 
-* 14:50 to 15:30 --- [Isaac Sheff](https://isaacsheff.com/), Heliax
+* 14:50 to 15:30 ---
+ [Isaac Sheff](https://isaacsheff.com/), Heliax
     <details>
     <summary>Formal Methods at Heliax: an industry experience report</summary>
     <br>
@@ -73,9 +83,11 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
     </p>
     </details>
 
-* 15:30 to 16:00 --- Coffee break
+* 15:30 to 16:00 ---
+ Coffee break
 
-* 16:00 to 16:40 --- [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
+* 16:00 to 16:40 ---
+ [Nicholas V. Lewchenko](https://www.octalsrc.org/research), University of Colorado Boulder
     <details>
     <summary>Bolt-On Strong Consistency: Specification, Implementation, and Verification</summary>
     <br>
@@ -86,7 +98,8 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 In this talk, I will explore an alternative approach: the implementation and verification of strong replication systems *as applications of* weak replicated data stores. Weak stores, being available under partition, are a suitable foundation for performant distributed applications. At the same time, they abstract asynchronous communication and allow us to derive local-scope conditions for the verification of consensus safety. To evaluate this approach, we have developed a verified-programming framework for the weak replicated state model, called ‘Super-V’. This framework enables SMT-based verification based on local-scope artifacts called ‘strong update preconditions’, improving on standard-practice global inductive invariants in both decidability by the solver and ease of discovery by the developer. I will demonstrate how this framework can be used to implement and verify a strong replication system based on an adaptation of the Raft consensus algorithm, and discuss the performance implications of this approach.
     </p>
     </details>
-* 16:40 to 17:20 --- [Stephen Siegel](https://vsl.cis.udel.edu/siegel.html), University of Delaware
+* 16:40 to 17:20 ---
+ [Stephen Siegel](https://vsl.cis.udel.edu/siegel.html), University of Delaware
     <details>
     <summary>Challenge Problems in Verification of MPI Programs</summary>
     <br>
@@ -94,7 +107,8 @@ In this talk, I will explore an alternative approach: the implementation and ver
     MPI (Message Passing Interface) is the standard interface for writing distributed-memory parallel programs for scientific and high performance computing.   While MPI is a large library, the core functions, which suffice for expressing most algorithms, provide a simple interface with well-behaved properties, e.g., messages are never dropped and message order is preserved.  One of the main challenges in scientific computing is the mechanistic verification of programs written in C, C++, or Fortran and using MPI.   There has been some success in verifying such programs within small bounds on the number of processes, using model checking and symbolic execution techniques.  There has also been work on parameterized verification of these programs.  In this talk I will summarize MPI and show some examples of what has been accomplished so far, as well as examples for which current verification technology is insufficient.  Can ideas from distributed system verification help us solve these problems?
     </p>
     </details>
-* 17:00 to 18:00 --- [Kostis Sagonas](https://www.ece.ntua.gr/en/staff/77), Uppsala University, Sweden and NTUA, Greece
+* 17:00 to 18:00 ---
+ [Kostis Sagonas](https://www.ece.ntua.gr/en/staff/77), Uppsala University, Sweden and NTUA, Greece
     <details>
     <summary>Testing and Verifying Concurrency Algorithms using Stateless Model Checking</summary>
     </details>
