@@ -65,7 +65,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
     </details>
 
 * 12:20 to 14:10 ---
- Lunch break
+ Lunch break (lunch is not included)
 
 * 14:10 to 14:50 ---
  [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
