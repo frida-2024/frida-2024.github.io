@@ -111,6 +111,25 @@ In this talk, I will explore an alternative approach: the implementation and ver
  [Kostis Sagonas](https://www.ece.ntua.gr/en/staff/77), Uppsala University, Sweden and NTUA, Greece
     <details>
     <summary>Testing and Verifying Concurrency Algorithms using Stateless Model Checking</summary>
+    <br>
+    <p>
+    Stateless Model Checking (SMC) is a fully automatic verification
+    technique for concurrent programs that checks for safety violations by
+    exploring all possible ways that threads can interleave.  It becomes
+    effective when combined with Dynamic Partial Order Reduction algorithms
+    and various bounding techniques.
+    </p>
+    <p>
+    This talk will present experiences in applying two different SMC tools
+    in two different case studies. The first of them applied Nidhugg, an SMC
+    tool for C/Pthread programs, to the code of Tree RCU, the Hierarchical
+    Read-Copy-Update synchronization mechanism for mutual exclusion used in
+    the Linux kernel, a low-level and quite complex concurrent program. The
+    second case study applied Concuerror, an SMC tool for Erlang programs,
+    to test and verify, during their design phase by engineers at VMWare,
+    chain repair methods for CORFU, a distributed shared log which aims to
+    be scalable and reliable in the presence of failures and asynchrony.
+    </p>
     </details>
 <!-- * [Giuliano Losa](https://www.losa.fr), Stellar Development Foundation
     <details>
