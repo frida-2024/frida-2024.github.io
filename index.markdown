@@ -107,7 +107,7 @@ In this talk, I will explore an alternative approach: the implementation and ver
     MPI (Message Passing Interface) is the standard interface for writing distributed-memory parallel programs for scientific and high performance computing.   While MPI is a large library, the core functions, which suffice for expressing most algorithms, provide a simple interface with well-behaved properties, e.g., messages are never dropped and message order is preserved.  One of the main challenges in scientific computing is the mechanistic verification of programs written in C, C++, or Fortran and using MPI.   There has been some success in verifying such programs within small bounds on the number of processes, using model checking and symbolic execution techniques.  There has also been work on parameterized verification of these programs.  In this talk I will summarize MPI and show some examples of what has been accomplished so far, as well as examples for which current verification technology is insufficient.  Can ideas from distributed system verification help us solve these problems?
     </p>
     </details>
-* 17:00 to 18:00 ---
+* 17:20 to 18:00 ---
  [Kostis Sagonas](https://www.ece.ntua.gr/en/staff/77), Uppsala University, Sweden and NTUA, Greece
     <details>
     <summary>Testing and Verifying Concurrency Algorithms using Stateless Model Checking</summary>
