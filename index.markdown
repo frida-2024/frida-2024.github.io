@@ -70,7 +70,20 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 14:10 to 14:50 ---
  [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
     <details>
-    <summary>Commutativity Verification/Inference for Automatic Parallelization</summary>
+    <summary>Scenario-Based Proofs for Concurrent Objects</summary>
+    <br>
+    <p>
+    Concurrent objects form the foundation of many applications that exploit multicore architectures and their importance has lead to informal correctness arguments, as well as formal proof systems. Correctness arguments (as found in the distributed computing literature) give intuitive descriptions of a few canonical executions or “scenarios” often each with only a few threads, yet it remains unknown as to whether these intuitive arguments have a formal grounding and extend to arbitrary interleavings over unboundedly many threads.
+    </p>
+    <p>
+    We present a novel proof technique for concurrent objects, based around identifying a small set of scenarios (representative, canonical interleavings), formalized as the commutativity quotient of a concurrent object. We next give an expression language for defining abstractions of the quotient in the form of regular or context-free languages that enable simple proofs of linearizability. These quotient expressions organize unbounded interleavings into a form more amenable to reasoning and make explicit the relationship between implementation-level contention/interference and ADT-level transitions.
+    </p>
+    <p>
+    We evaluate our work on numerous non-trivial concurrent objects from the literature (including the Michael-Scott queue, Elimination stack, SLS reservation queue, RDCSS and Herlihy-Wing queue). We show that quotients capture the diverse features/complexities of these algorithms, can be used even when linearization points are not straight-forward, correspond to original authors’ correctness arguments, and provide some new scenario-based arguments. Finally, we show that discovery of some object’s quotients reduces to two-thread reasoning and give an implementation that can derive candidate quotients expressions from source code.
+    </p>
+    <p>
+    Joint work with Constantin Enea. To appear in OOPSLA 2024.
+    </p>
     </details>
 
 * 14:50 to 15:30 ---
