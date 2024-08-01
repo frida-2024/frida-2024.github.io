@@ -89,7 +89,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 14:50 to 15:30 ---
  [Isaac Sheff](https://isaacsheff.com/), Heliax
     <details>
-    <summary>Formal Methods at Heliax: an industry experience report</summary>
+    <summary>[Formal Methods at Heliax: an industry experience report](./FRIDA_2024_Heliax.pdf)</summary>
     <br>
     <p>
     History is littered with examples where distributed applications suffer because the underlying infrastructure is running flawed protocols or implementations. Heliax is a public goods lab building software for running distributed systems infrastructure to increase flexibility and security of applications. This talk reviews our experiences at Heliax, in particular how we integrate formal methods into our infrastructure software design process. The talk focuses on implementation plans for Heterogeneous Paxos, a consensus algorithm with complex trust assumptions, wherein different parties make different assumptions about who can fail and how. It also explains  our motivations for using formal methods, reports on our experiences with tools (including TLA⁺, TLAPS and Isabelle/HOL), and includes a “wish-list” of features that, in our experience, would maximize the impact of a formal verification tool.
@@ -114,7 +114,7 @@ In this talk, I will explore an alternative approach: the implementation and ver
 * 16:40 to 17:20 ---
  [Stephen Siegel](https://vsl.cis.udel.edu/siegel.html), University of Delaware
     <details>
-    <summary>Challenge Problems in Verification of MPI Programs</summary>
+    <summary>[Challenge Problems in Verification of MPI Programs](./frida2024.pdf)</summary>
     <br>
     <p>
     MPI (Message Passing Interface) is the standard interface for writing distributed-memory parallel programs for scientific and high performance computing.   While MPI is a large library, the core functions, which suffice for expressing most algorithms, provide a simple interface with well-behaved properties, e.g., messages are never dropped and message order is preserved.  One of the main challenges in scientific computing is the mechanistic verification of programs written in C, C++, or Fortran and using MPI.   There has been some success in verifying such programs within small bounds on the number of processes, using model checking and symbolic execution techniques.  There has also been work on parameterized verification of these programs.  In this talk I will summarize MPI and show some examples of what has been accomplished so far, as well as examples for which current verification technology is insufficient.  Can ideas from distributed system verification help us solve these problems?
