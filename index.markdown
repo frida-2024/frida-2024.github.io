@@ -21,7 +21,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 09:10 to 09:50 ---
  [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
     <details>
-    <summary>[Machine-Verifying Complex and Deployed Multiprocess Data Structures](./Machine-Verifying_Complex_and_Deployed_Multiprocess_Data_Structures.pdf)</summary>
+    <summary><a href="./Machine-Verifying_Complex_and_Deployed_Multiprocess_Data_Structures.pdf">Machine-Verifying Complex and Deployed Multiprocess Data Structures</a></summary>
     <br>
     <p>
     I will talk about machine-verifying the correctness of concurrent data structures via the universal and complete Meta-Configurations Tracking verification method for proving linearizability. We have used this method to prove algorithms with famously complex and future-dependent linearization structures and those which have been impactfully deployed in practice. We demonstrate the simplicity and power of our method by producing proofs of linearizability for the Herlihy-Wing queue and Jayanti’s single-scanner snapshot, as well as a proof of strong linearizability of the Jayanti-Tarjan union-find object, which is deployed in Google's open-source graph mining library to enable the clustering billion-scale data. All three of these proofs are machine-verified by TLAPS (the TLA+ Proof System).
@@ -33,7 +33,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 09:50 to 10:30 ---
  [Nisarg Patel](https://cs.nyu.edu/~nrp364/), NYU
     <details>
-    <summary>[Verification of Lock-free Search Structure Templates](./Verification_of_Lock-free_Search_Structure_Templates.pdf)</summary>
+    <summary><a href="./Verification_of_Lock-free_Search_Structure_Templates.pdf">Verification of Lock-free Search Structure Templates</a></summary>
     <br>
     <p>
     Concurrent search structures are a class of concurrent data structures that implement a key-value store. Concurrent search structures are integral components of modern software systems, yet they are notoriously difficult to design and implement. In the context of concurrency, linearizability is the accepted notion of correctness of a data structure. Verifying linearizability of concurrent search structures remains a formidable challenge due to the inherent complexity of the underlying algorithms. So far, verification of these data structures has often led to large, intricate proofs that are hard to comprehend and reuse. In this talk, we focus on lock-free concurrent search structures based on lists and skiplists. For this class of data structures, we present verification techniques that aid modularity and enable proof reuse. The resulting linearizability proofs are fully mechanized in the concurrent separation logic Iris. The proofs are modular and cover the broader design space of the underlying algorithms by parameterizing the verification over aspects such as the low-level representation of nodes and the style of data structure maintenance. As a further technical contribution, we present a mechanization of a recently proposed method for reasoning about future-dependent linearization points using hindsight arguments. The mechanization builds on Iris’ support for prophecy reasoning and user-defined ghost resources. We demonstrate that the method can help to reduce the proof effort compared to direct prophecy-based proofs.
@@ -89,7 +89,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 14:50 to 15:30 ---
  [Isaac Sheff](https://isaacsheff.com/), Heliax
     <details>
-    <summary>[Formal Methods at Heliax: an industry experience report](./Formal_Methods_at_Heliax:_an_industry_experience_report.pdf)</summary>
+    <summary><a href="./Formal_Methods_at_Heliax:_an_industry_experience_report.pdf">Formal Methods at Heliax: an industry experience report</a></summary>
     <br>
     <p>
     History is littered with examples where distributed applications suffer because the underlying infrastructure is running flawed protocols or implementations. Heliax is a public goods lab building software for running distributed systems infrastructure to increase flexibility and security of applications. This talk reviews our experiences at Heliax, in particular how we integrate formal methods into our infrastructure software design process. The talk focuses on implementation plans for Heterogeneous Paxos, a consensus algorithm with complex trust assumptions, wherein different parties make different assumptions about who can fail and how. It also explains  our motivations for using formal methods, reports on our experiences with tools (including TLA⁺, TLAPS and Isabelle/HOL), and includes a “wish-list” of features that, in our experience, would maximize the impact of a formal verification tool.
@@ -114,7 +114,7 @@ In this talk, I will explore an alternative approach: the implementation and ver
 * 16:40 to 17:20 ---
  [Stephen Siegel](https://vsl.cis.udel.edu/siegel.html), University of Delaware
     <details>
-    <summary>[Challenge Problems in Verification of MPI Programs](./Challenge_Problems_in_Verification_of_MPI_Programs.pdf)</summary>
+    <summary><a href="./Challenge_Problems_in_Verification_of_MPI_Programs.pdf">Challenge Problems in Verification of MPI Programs</a></summary>
     <br>
     <p>
     MPI (Message Passing Interface) is the standard interface for writing distributed-memory parallel programs for scientific and high performance computing.   While MPI is a large library, the core functions, which suffice for expressing most algorithms, provide a simple interface with well-behaved properties, e.g., messages are never dropped and message order is preserved.  One of the main challenges in scientific computing is the mechanistic verification of programs written in C, C++, or Fortran and using MPI.   There has been some success in verifying such programs within small bounds on the number of processes, using model checking and symbolic execution techniques.  There has also been work on parameterized verification of these programs.  In this talk I will summarize MPI and show some examples of what has been accomplished so far, as well as examples for which current verification technology is insufficient.  Can ideas from distributed system verification help us solve these problems?
