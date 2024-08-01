@@ -21,7 +21,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 09:10 to 09:50 ---
  [Siddhartha Jayanti](https://sites.google.com/view/siddhartha-jayanti/research), Google Research and AI
     <details>
-    <summary>Machine-Verifying Complex and Deployed Multiprocess Data Structures</summary>
+    <summary>[Machine-Verifying Complex and Deployed Multiprocess Data Structures](./Machine-Verifying_Complex_and_Deployed_Multiprocess_Data_Structures.pdf)</summary>
     <br>
     <p>
     I will talk about machine-verifying the correctness of concurrent data structures via the universal and complete Meta-Configurations Tracking verification method for proving linearizability. We have used this method to prove algorithms with famously complex and future-dependent linearization structures and those which have been impactfully deployed in practice. We demonstrate the simplicity and power of our method by producing proofs of linearizability for the Herlihy-Wing queue and Jayanti’s single-scanner snapshot, as well as a proof of strong linearizability of the Jayanti-Tarjan union-find object, which is deployed in Google's open-source graph mining library to enable the clustering billion-scale data. All three of these proofs are machine-verified by TLAPS (the TLA+ Proof System).
