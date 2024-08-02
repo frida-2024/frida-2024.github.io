@@ -57,7 +57,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 11:40 to 12:20 ---
  [Borzoo Bonakdarpour](http://www.cse.msu.edu/~borzoo/), Michigan State University
     <details>
-    <summary>Fault-tolerant Distributed Runtime Monitoring</summary>
+    <summary>Fault-tolerant Distributed Runtime Monitoring (<a href="./Fault-tolerant_Distributed_Runtime_Monitoring.pdf">slides</a>)</summary>
       <br>
       <p>
       Monitoring distributed applications that do not share a global clock is highly challenging as the monitor has to potentially deal with a combinatorial enumeration at run time. We also have every reason to believe that distributed monitors are not necessarily perfect and monitors are subject to all types of faults that normal distributed processes are. In this talk, I will present our results on runtime verification of distributed systems. We make a practical assumption that the distributed system under scrutiny is augmented with a clock synchronization algorithm that guarantees bounded clock skew among all processes. Second, we do not make any assumption about the structure of the formal specification under inspection. We introduce a set of distributed monitoring algorithms by employing SMT-solving that range over discrete distributed systems such as databases to cyber-physical systems such as network of autonomous vehicles. I will also present real-world case studies and demonstrate that scalable online monitoring of distributed applications is within our reach.
