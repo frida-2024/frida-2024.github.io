@@ -46,7 +46,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 11:00 to 11:40 ---
  [Marco Eilers](https://www.pm.inf.ethz.ch/people/personal/meilers-pers.html), ETHZ
     <details>
-    <summary>verifiedSCION: Verified Secure Routing</summary>
+    <summary>verifiedSCION: Verified Secure Routing (<a href="./verifiedSCION_Verified_Secure_Routing.pdf">slides</a>)</summary>
     <br>
     <p>
     SCION is a new Internet architecture that addresses many of the security vulnerabilities of today’s Internet. Its clean-slate design provides, among other properties, route control, failure isolation, and multi-path communication. The verifiedSCION project is an effort to formally verify the correctness and security of SCION. It aims to provide strong guarantees for the entire architecture, from the protocol design to its concrete implementation.
