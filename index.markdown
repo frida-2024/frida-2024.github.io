@@ -70,7 +70,7 @@ The workshop is part of [CAV 2024](https://i-cav.org/2024/) and is organized by 
 * 14:10 to 14:50 ---
  [Eric Koskinen](https://www.erickoskinen.com/#/), Stevens Institute of Technology
     <details>
-    <summary>Scenario-Based Proofs for Concurrent Objects</summary>
+    <summary>Scenario-Based Proofs for Concurrent Objects (<a href="./Scenario-Based_Proofs_for_Concurrent_Objects.pdf">slides</a>)</summary>
     <br>
     <p>
     Concurrent objects form the foundation of many applications that exploit multicore architectures and their importance has lead to informal correctness arguments, as well as formal proof systems. Correctness arguments (as found in the distributed computing literature) give intuitive descriptions of a few canonical executions or “scenarios” often each with only a few threads, yet it remains unknown as to whether these intuitive arguments have a formal grounding and extend to arbitrary interleavings over unboundedly many threads.
